@@ -1,3 +1,4 @@
-theme: jekyll-theme-minimal
-title: "Ahí queda mi ciencia"
-description: "Análisis crítico de literatura científica, peer review y problemas metodológicos no detectados"
+theme: minima
+title: "Ahiquedamiciencia"
+description: "Blog divulgativo sobre metodología de la investigación y revisión crítica de literatura científica"
+show_excerpts: true
