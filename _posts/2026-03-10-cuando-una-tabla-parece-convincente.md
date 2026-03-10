@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cuando una tabla parece convincente, pero el análisis no responde del todo a la pregunta"
-date: 2026-03-10 18:30:00 +0100
+date: 2026-03-10 10:00:00 +0100
 categories:
   - metodologia
   - lectura-critica
