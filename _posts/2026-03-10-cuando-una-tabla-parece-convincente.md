@@ -1,175 +1,136 @@
 ---
 layout: post
-title: "Cuando una tabla parece convincente, pero el análisis no responde del todo a la pregunta"
-date: 2026-03-10 10:00:00 +0100
+title: "Cuando unas tablas impresionan más que el ensayo: lecciones de análisis, registro y transparencia"
+date: 2026-03-10
 categories:
   - metodologia
   - lectura-critica
 tags:
   - ensayo-clinico
+  - registro-ensayos
+  - consort
   - peer-review
   - estadistica
   - medidas-repetidas
   - placebo
-  - interpretacion
-  - calidad-de-vida
-  - dolor
+  - cegamiento
+  - asignacion-aleatoria
   - reiki
-  - pediatria-oncologica
 ---
 
-A veces, al leer un ensayo clínico, uno tiene la sensación de que todo encaja. Hay varios grupos, aparecen comparaciones antes y después, se acumulan valores de p y las tablas transmiten una impresión inmediata de solidez. Sin embargo, esa primera impresión no siempre coincide con lo que el análisis permite concluir de verdad.
+A veces un ensayo no es útil porque sea impecable, sino porque obliga a leerlo dos veces. La primera lectura deja una impresión favorable: tres grupos, placebo, control, varios días de seguimiento, muchas tablas y resultados llamativos. La segunda, que es la metodológicamente importante, empieza a hacer preguntas menos cómodas: si el análisis responde de verdad a la pregunta del estudio, si el registro fue oportuno, si el cegamiento está bien descrito y si la pre-publicación del protocolo permite confiar en lo que se reporta.
 
-Eso es precisamente lo que convierte algunos artículos en material docente excelente.
+Este ensayo sobre Reiki en niños con leucemia es un buen ejemplo de ello. A primera vista, el estudio parece bien armado: grupo intervención, grupo pseudo-Reiki y grupo control; medidas repetidas durante tres días; y múltiples desenlaces relacionados con dolor, signos vitales y calidad de vida. Todo eso transmite una impresión inicial de solidez. Pero cuando uno baja del resumen a las tablas, y de las tablas al registro del ensayo, la lectura cambia de tono.
 
-El estudio que comento aquí evaluó el efecto del Reiki en niños con leucemia mediante un ensayo con tres brazos: Reiki, pseudo-Reiki y control. A primera vista, el trabajo ofrece una arquitectura que puede resultar convincente: grupo placebo, grupo control, varios días de seguimiento, análisis pre y post, y una cantidad considerable de contrastes estadísticos. Pero cuando uno baja de la conclusión general a las tablas concretas, aparece una cuestión metodológica mucho más interesante: no siempre basta con que un análisis parezca completo; lo importante es si realmente responde a la pregunta de investigación.
+Y cambia bastante.
 
-## Cuando mejorar dentro de un grupo no basta
+## Una tabla convincente no siempre demuestra lo que parece demostrar
 
-Esta es, probablemente, la primera gran lección que se puede extraer del manuscrito.
+La primera lección sigue siendo la más importante. En el manuscrito, muchas conclusiones descansan en comparaciones antes-después dentro de cada grupo. Ese análisis puede describir cambio. Lo que no puede hacer, por sí solo, es demostrar superioridad frente a los otros grupos.
 
-En buena parte del texto interpretativo, la atención se dirige a los cambios antes-después dentro de cada grupo. Ese tipo de análisis puede ser útil para describir una evolución. El problema aparece cuando se utiliza como si demostrara, por sí mismo, que la intervención fue superior a las demás condiciones.
+La Tabla 2 lo ilustra muy bien. En el tercer día, la frecuencia respiratoria disminuye de forma significativa en el grupo Reiki, con `z=-3.076; p=0.002`. Leído deprisa, eso parece una señal favorable. Pero el grupo placebo también disminuye, con `z=-2.537; p=0.011`. Y cuando uno mira la comparación entre grupos en ese mismo momento, la diferencia desaparece: antes de la intervención `H=2.595; p=0.273`, y después `H=1.189; p=0.552`.
 
-No es lo mismo.
+Eso enseña algo que conviene repetir mucho: que un grupo cambie respecto a sí mismo no demuestra que haya cambiado más que los demás. Y esa segunda parte es precisamente la que importaba aquí.
 
-Un ejemplo muy claro aparece en la Tabla 2, dedicada a signos vitales. En el tercer día, la frecuencia respiratoria disminuye de forma significativa en el grupo Reiki, con `z = -3.076; p = 0.002`. Leído aisladamente, el dato puede parecer sugestivo. Sin embargo, el grupo placebo también muestra una disminución significativa, con `z = -2.537; p = 0.011`. Y cuando se observa la comparación entre grupos en ese mismo momento, el resultado deja de sostener una superioridad clara: antes de la intervención `H = 2.595; p = 0.273`, y después `H = 1.189; p = 0.552`.
+## En medidas repetidas, no toda medida "pre" vuelve a ser un basal
 
-Este punto merece insistencia docente, porque es una de las confusiones más frecuentes en la lectura de ensayos:
+Otra lección muy útil aparece en las tablas de dolor. En diseños con varios días, la medida "pre" del segundo o del tercer día ya no es un punto de partida limpio. Puede estar recogiendo el arrastre de sesiones previas, evolución clínica, adaptación o simple dinámica longitudinal del proceso, el paso del tiempo. 
 
-que un grupo mejore respecto a sí mismo no demuestra, por sí solo, que haya mejorado más que los demás.
+Eso se ve con claridad en la Tabla 4, en la evaluación materna del dolor. Antes de la intervención del segundo día ya aparece diferencia entre grupos: Reiki presenta una mediana de `2 (0–10)` frente a `5 (2–8)` en el control, con `H=7.482; p=0.024`, y el post hoc indica `r < c`. En el tercer día ocurre algo parecido: Reiki `2 (0–9)` frente a control `5 (2–9)`, con `H=12.862; p=0.002`.
 
-Para sostener una afirmación de superioridad, no basta con enseñar que Reiki cambia. Hay que mostrar que cambia más que el placebo y más que el control. Y eso exige comparar explícitamente las trayectorias o los cambios entre grupos, no solo comprobar si cada grupo se aparta de su propio punto de partida.
+No es un matiz menor. Significa que interpretar cada "pre" como si fuera una nueva línea base independiente puede ser engañoso. Y, sin embargo, buena parte del relato del manuscrito descansa sobre ese tipo de lectura.
 
-Dicho de manera muy sencilla:
+## El placebo también mejora, y eso cambia la interpretación
 
-**significativo dentro de un grupo no significa diferente entre grupos.**
+Este punto me parece especialmente instructivo. El grupo placebo no permanece quieto. También mejora en varios desenlaces, y eso obliga a pensar mejor.
 
-## Las medidas "pre" de los días sucesivos no son una línea base nueva
+En la Tabla 3, sobre dolor según la evaluación del niño, el placebo mejora de forma significativa del pre al post en los tres días: día 1 `z=-4.000; p<0.001`, día 2 `z=-3.500; p<0.001`, y día 3 `z=-2.507; p=0.012`. En la Tabla 4, según la evaluación materna, ocurre algo semejante: día 1 `p<0.001`, día 2 `p=0.003` y día 3 `p<0.001`.
 
-Otro aspecto muy útil para la docencia aparece en las tablas de dolor.
+También en calidad de vida el placebo mejora. En la Tabla 5, la `Total Scale Score` del grupo placebo mejora con `z=-2.956; p=0.003`, y en la Tabla 6 vuelve a mejorar con `z=-3.444; p=0.001`.
 
-En los estudios con varias sesiones o mediciones repetidas, es fácil caer en una lectura automática: asumir que toda medida registrada "antes de la intervención" funciona como una nueva línea base. Pero eso no siempre es verdad. De hecho, en muchos casos es metodológicamente engañoso.
+Eso no invalida automáticamente el estudio. Lo que hace es volver la interpretación más exigente. Si el placebo también mejora, ya no basta con decir que la intervención "funciona". Hay que preguntarse cuánto de la mejoría puede deberse a atención recibida, expectativas, contacto terapéutico, regresión a la media o evolución natural.
 
-En la Tabla 4, correspondiente a la evaluación materna del dolor, antes de la intervención del segundo día ya aparece una diferencia entre grupos: el grupo Reiki presenta una mediana de `2 (0–10)` frente a `5 (2–8)` en el control, con `H = 7.482; p = 0.024`, y el post hoc indica `r < c`. En el tercer día, la situación se repite: Reiki `2 (0–9)` frente a control `5 (2–9)`, con `H = 12.862; p = 0.002`.
+## Hay señales más sólidas en algunos desenlaces, pero no una mejora homogénea de todo
 
-Esto no es un detalle menor. Indica que la medida "pre" del segundo o tercer día ya no representa un punto de partida neutral e independiente. Puede estar reflejando el efecto acumulado de sesiones previas, la evolución natural del cuadro, la adaptación del niño, cambios contextuales o simplemente la dinámica longitudinal del proceso.
+Sería injusto leer el trabajo como si no mostrara nada. Sí hay resultados relativamente consistentes en algunos dominios, y conviene reconocerlo.
 
-Por tanto, conviene dejar muy clara una idea metodológica importante:
+En la Tabla 5, por ejemplo, la `Total Scale Score` pasa en el grupo Reiki de `53.85` a `76.92`, mientras que el placebo queda en `57.69` y el control en `52.88`, con `H=25.693; p<0.001`, y el post hoc indica `r > pr` y `r > c`. En `Pain and Hurt`, Reiki alcanza una mediana post de `100 (50–100)`, frente a `50 (0–100)` en placebo y `50 (0–100)` en control, con `H=35.671; p<0.001`. En `Nausea`, Reiki llega a `95 (50–100)`, mientras los otros dos grupos permanecen en `50`, con `H=33.693; p<0.001`.
 
-**en un diseño con medidas repetidas, las medidas previas de días sucesivos no equivalen a una línea base inicial limpia.**
+Ese mismo patrón reaparece en la Tabla 6, en la evaluación parental: `Total Scale Score` post de `71.15` en Reiki frente a `55.77` en placebo y `55.77` en control, `p=0.001`; `Pain and Hurt` post de `93.75` frente a `50` y `50`, `p<0.001`; y `Nausea` post de `75` frente a `50` y `50`, `p=0.001`.
 
-Y esto importa porque cambia la forma en que interpretamos la comparación pre-post de cada jornada. Si la medida previa ya viene condicionada por lo ocurrido antes, esa comparación deja de ser una "mini línea base contra mini intervención" tan simple como a veces se presenta.
+Pero no todo cuenta la misma historia. En la Tabla 5, `Cognitive Problems` no muestra diferencias entre grupos tras la intervención (`p=0.923`), ni `Perceived Physical Appearance` (`p=0.624`) ni `Communication` (`p=0.460`). En la Tabla 6 tampoco aparecen diferencias post en `Treatment Anxiety` (`p=0.189`), `Worry` (`p=0.525`), `Cognitive Problems` (`p=0.472`), `Perceived Physical Appearance` (`p=0.326`) o `Communication` (`p=0.827`).
 
-## La multiplicidad de pruebas obliga a leer con más cautela
+La conclusión prudente no es que el estudio "demuestre mejora global de toda la calidad de vida". La conclusión prudente es otra: que hay una señal más consistente en algunos desenlaces concretos, sobre todo dolor, náusea y puntuación total, pero no una mejora uniforme en todos los dominios evaluados.
 
-Un tercer aprendizaje importante del caso tiene que ver con la cantidad de pruebas estadísticas realizadas.
+## La multiplicidad de pruebas obliga a jerarquizar los hallazgos
 
-Aquí no estamos ante un único desenlace, un único momento y una única comparación. El manuscrito analiza varios grupos, varios días, múltiples subescalas, comparaciones entre grupos, comparaciones dentro de cada grupo y análisis post hoc. Eso multiplica el número de contrastes y, con ello, aumenta también la probabilidad de que aparezcan resultados estadísticamente significativos por puro azar.
+Ese punto se ve todavía mejor cuando uno mira la cantidad de comparaciones realizadas. No hay un único desenlace ni un único momento, sino múltiples subescalas, varios días, comparaciones entre grupos, comparaciones intragrupo y análisis post hoc.
 
-Esto no significa que haya que descartar todos los hallazgos. Significa algo más sensato: que no todos los valores de p por debajo de 0.05 merecen el mismo grado de confianza interpretativa.
+En ese contexto, no todos los valores de p por debajo de 0.05 pesan lo mismo. En la Tabla 5, por ejemplo, `Procedural Anxiety` muestra `p=0.031`, `Treatment Anxiety` `p=0.032` y `Worry` `p=0.008`. Sin embargo, en la Tabla 6, `Procedural Anxiety` se mantiene con `p=0.025`, pero `Treatment Anxiety` pasa a `p=0.189` y `Worry` a `p=0.525`. Es decir, algunos hallazgos aparecen en una fuente de evaluación y se diluyen en la otra.
 
-Las Tablas 5 y 6, centradas en calidad de vida, ilustran muy bien este problema. Se analiza la puntuación total y, además, una batería de subescalas: dolor, náusea, ansiedad procedimental, ansiedad al tratamiento, preocupación, problemas cognitivos, apariencia física y comunicación. En este contexto, los hallazgos muy consistentes merecen más atención que aquellos que aparecen de manera más marginal o menos replicada.
+Por eso, metodológicamente, no conviene leer todos los asteriscos como si tuvieran el mismo valor. Un hallazgo fuerte, repetido y coherente merece más confianza que uno marginal, aislado o inconsistente entre evaluadores.
 
-Por ejemplo, en la Tabla 5, la subescala `Procedural Anxiety` presenta `p = 0.031`, `Treatment Anxiety` `p = 0.032` y `Worry` `p = 0.008`. Sin embargo, en la Tabla 6, `Procedural Anxiety` mantiene una diferencia con `p = 0.025`, mientras que `Treatment Anxiety` pasa a `p = 0.189` y `Worry` a `p = 0.525`. Es decir, algunos hallazgos aparecen en una fuente de evaluación y se diluyen en la otra.
+## Hasta aquí ya había una lectura metodológica exigente; el registro la complica aún más
 
-Eso no obliga a llamarlos falsos, pero sí aconseja tratarlos como resultados más frágiles. Muy distinto es el caso de desenlaces como la puntuación total o la subescala `Pain and Hurt`, donde la señal es más intensa y además se reproduce en ambas tablas.
+Si el análisis ya pedía cautela, la comparación con la información pública del ensayo añade problemas todavía más serios.
 
-La enseñanza metodológica aquí es especialmente útil para estudiantes:
+El más importante es el registro retrospectivo. El artículo sitúa el reclutamiento entre "December 2020 and November 2021" y declara que el ensayo se registró el "26/01/2023", además "retrospectively registered". Eso quiere decir que el registro se produjo después de terminar la inclusión y probablemente después de completarse el estudio. ICMJE exige que los ensayos se registren "at or before the time of first patient consent for enrollment" y, para ensayos modernos, antes de incluir al primer participante.
 
-**cuando se hacen muchas pruebas, los hallazgos marginales deben interpretarse con más prudencia que los hallazgos robustos y repetidos.**
+Y esto no es un detalle administrativo. Cuando un ensayo se registra tarde, la confianza en la prespecificación se debilita. No porque eso pruebe por sí mismo manipulación, sino porque hace más difícil saber qué estaba realmente decidido antes de ver los datos y qué parte del relato analítico pudo consolidarse después.
 
-## Que el placebo también mejore cambia la conversación
+## El cegamiento no solo es discutible; además está descrito de forma incoherente
 
-Una de las cosas más interesantes del estudio es que el grupo placebo no se comporta como un grupo inmóvil. Y eso, metodológicamente, es mucho más relevante de lo que a veces se reconoce.
+La cuestión del enmascaramiento tampoco queda bien resuelta.
 
-En la Tabla 3, sobre dolor según la evaluación del niño, el grupo placebo mejora de forma significativa del pre al post en los tres días:
+El manuscrito se presenta repetidamente como "double-blind". Sin embargo, el registro accesible muestra una incoherencia importante: en el campo estructurado de diseño figura "Masking: Single Blind", mientras que el artículo lo describe como doble ciego. Y, además, el propio manuscrito deja ver que la intervención Reiki fue aplicada por una persona concreta, mientras el pseudo-Reiki fue administrado por otra profesional independiente, lo que vuelve poco sostenible la idea de un doble cegamiento pleno del personal que administra la intervención.
 
-- Día 1: `z = -4.000; p < 0.001`
-- Día 2: `z = -3.500; p < 0.001`
-- Día 3: `z = -2.507; p = 0.012`
+Aquí CONSORT es muy claro: no basta con usar una etiqueta general como "single-blind" o "double-blind". Hay que especificar quién fue cegado y cómo se consiguió ese cegamiento.
 
-En la Tabla 4, según la evaluación materna, ocurre algo semejante:
+Por tanto, el problema no es solo semántico. Hay una incoherencia entre el registro y el manuscrito, y además una descripción insuficientemente precisa de quién pudo y quién no pudo estar realmente cegado.
 
-- Día 1: `p < 0.001`
-- Día 2: `p = 0.003`
-- Día 3: `p < 0.001`
+## Secuencia aleatoria no equivale a ocultación de la asignación
 
-También en calidad de vida el placebo muestra mejorías. En la Tabla 5, por ejemplo, la `Total Scale Score` del grupo placebo mejora con `z = -2.956; p = 0.003`, y en la Tabla 6 vuelve a mejorar con `z = -3.444; p = 0.001`.
+La aleatorización también queda incompletamente documentada. El artículo habla de "balanced block randomization" y el registro accesible describe una distribución según una lista generada por ordenador con permutación balanceada. Eso informa sobre la **generación** de la secuencia. Lo que no explica con claridad es el **mecanismo de ocultación** antes de asignar al participante. No se describen sobres opacos, centralización, tercero independiente u otro sistema equivalente que impidiera anticipar la siguiente asignación (de los que supondrían un bajo riesgo de sesgo).
 
-Desde una lectura metodológica, esto obliga a matizar mucho más la interpretación. Porque entonces ya no basta con decir que la intervención mejora ciertos desenlaces. La cuestión pasa a ser cuánto de esa mejoría es atribuible a un efecto específico del Reiki y cuánto podría explicarse por atención recibida, contacto terapéutico, expectativas, regresión a la media o evolución natural del cuadro.
+Y esa diferencia importa mucho. CONSORT distingue de forma expresa entre generación de la secuencia, ocultación de la asignación e implementación. Sin una descripción clara del mecanismo de ocultación, no puede descartarse razonablemente sesgo de selección.
 
-Ese es un punto muy fértil para la docencia, porque enseña a no tratar el placebo como un simple "estorbo", sino como una herramienta para pensar mejor.
+## La elegibilidad pública y la elegibilidad reportada no terminan de encajar
 
-La lección sería esta:
+También hay un problema de transparencia en los criterios de elegibilidad. El registro accesible es relativamente escueto: estar en oncología pediátrica, tener entre 5 y 7 años, temperatura corporal normal, haber recibido al menos un ciclo de quimioterapia y no tener problemas visuales, auditivos o de retraso mental que impidieran completar las escalas; como exclusiones, uso de analgésicos en las últimas seis horas o haber recibido terapias cuerpo-mente o energéticas en los últimos seis meses.
 
-**si el placebo también mejora, la interpretación no puede quedarse en que la intervención "funciona"; tiene que preguntarse cuán específico es realmente ese efecto.**
+El manuscrito, en cambio, añade requisitos más específicos, como diagnóstico de leucemia, estabilidad clínica, hospitalización mínima de tres días, ausencia de otra enfermedad crónica y no tener prevista aspiración o biopsia medular durante los tres días del estudio. Eso no demuestra por sí solo manipulación, pero sí hace más difícil verificar si el reclutamiento siguió exactamente el plan públicamente visible antes de conocerse los resultados.
 
-## Hay señales favorables, pero no una mejora uniforme en todo
+## La adecuación a CONSORT queda, como mínimo, a medio camino
 
-Otra idea que conviene enseñar con este caso es que varios resultados favorables no autorizan automáticamente una conclusión global sin matices.
+El problema no termina en el registro. También hay déficits de reporte. CONSORT pide desenlaces primarios y secundarios claramente preespecificados, incluyendo cómo y cuándo se evaluaron; pide además informar el tamaño del efecto y su precisión, por ejemplo con intervalos de confianza, y señalar dónde puede consultarse el protocolo completo.
 
-En este manuscrito sí hay señales relativamente consistentes en algunos dominios. En la Tabla 5, por ejemplo, la `Total Scale Score` del grupo Reiki pasa de `53.85` a `76.92`, mientras que el placebo queda en `57.69` y el control en `52.88`, con `H = 25.693; p < 0.001`, y el post hoc indica `r > pr` y `r > c`. En la subescala `Pain and Hurt`, el grupo Reiki alcanza una mediana post de `100 (50–100)`, frente a `50 (0–100)` en placebo y `50 (0–100)` en control, con `H = 35.671; p < 0.001`. En `Nausea`, Reiki llega a `95 (50–100)`, mientras los otros dos grupos permanecen en `50`, con `H = 33.693; p < 0.001`.
+Aquí el artículo maneja múltiples variables y múltiples tiempos, pero no deja una jerarquía especialmente clara de desenlace primario y secundarios en el sentido fuerte que exige CONSORT. Predominan medianas y valores de p, sin estimaciones de efecto con su precisión para los principales desenlaces. Y tampoco queda claramente indicado dónde puede consultarse el protocolo completo.
 
-Ese mismo patrón reaparece en la Tabla 6, en la evaluación parental:
+Con lo accesible públicamente, no puede afirmarse con seguridad un "outcome switching" formal. Pero sí una prespecificación pública insuficientemente transparente y una adecuación solo parcial a CONSORT.
 
-- `Total Scale Score` post: Reiki `71.15`, placebo `55.77`, control `55.77`, `p = 0.001`
-- `Pain and Hurt` post: Reiki `93.75`, placebo `50`, control `50`, `p < 0.001`
-- `Nausea` post: Reiki `75`, placebo `50`, control `50`, `p = 0.001`
+## ¿Cuál es le interés docente de este estudio?
 
-Sería un error no reconocer que esos resultados existen y que, dentro del propio estudio, destacan por su consistencia. Pero también sería un error extender ese patrón a todos los dominios analizados.
+Justamente por eso este ensayo es tan útil para clase. No porque sea un ejemplo grotesco de mala investigación, sino porque representa algo mucho más frecuente: un trabajo con resultados llamativos, una presentación que impresiona a primera vista y, sin embargo, una serie de problemas que obligan a separar con cuidado lo prometedor de lo metodológicamente sólido.
 
-Porque no ocurre lo mismo con todo.
+La lección no es que "todo esté mal". La lección es otra, y quizá más importante: que un estudio puede mostrar una señal favorable en algunos desenlaces y, al mismo tiempo, seguir siendo problemático cuando se examinan la lógica del análisis, el momento del registro, la transparencia del cegamiento y la calidad del reporte.
 
-En la Tabla 5, `Cognitive Problems` no muestra diferencias entre grupos tras la intervención (`p = 0.923`), ni `Perceived Physical Appearance` (`p = 0.624`) ni `Communication` (`p = 0.460`). En la Tabla 6, tampoco aparecen diferencias post en `Treatment Anxiety` (`p = 0.189`), `Worry` (`p = 0.525`), `Cognitive Problems` (`p = 0.472`), `Perceived Physical Appearance` (`p = 0.326`) o `Communication` (`p = 0.827`).
+## Conclusión
 
-La conclusión docente es bastante clara:
+Una tabla llena de asteriscos puede impresionar. Pero la buena metodología no consiste en contar asteriscos. Consiste en preguntar si el análisis responde a la pregunta del estudio, si la comparación clave está realmente hecha, si el ensayo fue registrado cuando debía, si el riesgo de sesgo quedó razonablemente controlado y si el lector dispone de una prespecificación suficientemente transparente para confiar en lo que se le está contando.
 
-**un estudio puede mostrar beneficios convincentes en algunos desenlaces y, al mismo tiempo, no justificar una afirmación global sobre todos los aspectos de la calidad de vida.**
+En este caso, las tablas dejan una señal favorable en algunos desenlaces importantes, especialmente dolor, náusea y puntuación total de calidad de vida. Pero el conjunto del ensayo queda debilitado por algo más serio que una simple discusión estadística: registro retrospectivo, cegamiento incoherentemente descrito, ocultación de la asignación insuficientemente documentada y una adecuación a CONSORT solo parcial. Y, para un lector metodológicamente exigente, eso cambia bastante la forma de leer los resultados.
 
-No todos los desenlaces cuentan la misma historia. Y una buena discusión debe resistirse a la tentación de homogeneizarlos artificialmente.
+## Referencias del caso
 
-## La pregunta central pedía un análisis más integrador
-
-Llegados a este punto, probablemente la cuestión metodológica más importante sea esta: el estudio ofrece muchas comparaciones, pero no termina de proporcionar la prueba analítica más alineada con su pregunta principal.
-
-Lo que se presenta son, sobre todo, comparaciones entre grupos en momentos concretos y comparaciones pre-post dentro de cada grupo. Eso aporta información, sin duda. Pero la pregunta fuerte del ensayo no era simplemente si el grupo Reiki tenía una mediana mejor en un momento dado, ni solo si mejoraba respecto a sí mismo.
-
-La pregunta fuerte era otra:
-
-**¿la evolución del grupo Reiki fue diferente de la evolución del grupo placebo y del grupo control a lo largo del tiempo?**
-
-Para responder bien a esa pregunta, lo más convincente habría sido analizar directamente el cambio entre grupos o utilizar un modelo longitudinal con interacción `grupo × tiempo`. Ese tipo de análisis integra formalmente las dos dimensiones que aquí aparecen algo fragmentadas: la evolución temporal y la comparación entre condiciones.
-
-Sin ese paso, el lector recibe muchas piezas del rompecabezas, pero no siempre la demostración más sólida de la hipótesis principal.
-
-Y esa situación, precisamente, es la que vuelve este caso tan útil en docencia. No se trata de un estudio obviamente desastroso. Se trata de algo mucho más frecuente: un estudio con resultados llamativos y potencialmente interesantes, pero cuya interpretación exige bastante más rigor del que su presentación inicial podría sugerir.
-
-## Qué puede aprender un estudiante de este caso
-
-Si tuviera que resumir el valor docente de este artículo, lo haría así.
-
-Primero, enseña que una mejoría intragrupo no demuestra superioridad frente a otros grupos.
-
-Segundo, recuerda que en diseños con medidas repetidas las medidas "pre" de días sucesivos no equivalen a una línea base nueva e independiente.
-
-Tercero, muestra que la multiplicidad de pruebas obliga a diferenciar entre hallazgos robustos y resultados más frágiles.
-
-Cuarto, subraya que la mejoría del placebo no invalida el estudio, pero sí obliga a pensar en efectos inespecíficos y en la verdadera especificidad del efecto atribuido a la intervención.
-
-Y quinto, recuerda que cuando los distintos desenlaces no cuentan exactamente la misma historia, la conclusión debe ser proporcionada y no expansiva.
-
-## Cierre
-
-Una tabla llena de asteriscos puede impresionar. Es normal. Pero la buena metodología no consiste en contar asteriscos, sino en plantear una pregunta más incómoda y bastante más útil: si el análisis realmente responde a la pregunta que el estudio decía querer contestar.
-
-En este caso, las tablas sugieren una señal favorable en algunos desenlaces importantes, especialmente dolor, náusea y puntuación total de calidad de vida. Pero, desde una perspectiva docente, quizá enseñan algo aún más valioso: cómo distinguir entre un patrón prometedor y una demostración metodológicamente sólida.
-
-Y esa diferencia, aunque a veces pase desapercibida, es exactamente una de las cosas que más merece la pena enseñar.
-
-## Referencia del artículo
-
-Demir D, Mutlu B, Türkkan E. *The effect of Reiki therapy performed on children with leukemia between the ages of 5-7 years on pain, vital signs and quality of life: A randomized controlled study*. **European Journal of Oncology Nursing**. 2025;81:103082. doi:10.1016/j.ejon.2025.103082.
+Demir D, Mutlu B, Türkkan E. *The effect of Reiki therapy performed on children with leukemia between the ages of 5-7 years on pain, vital signs and quality of life: A randomized controlled study*. *European Journal of Oncology Nursing*. 2025;81:103082. doi:10.1016/j.ejon.2025.103082.
 
 - PMID: 41793784
 - PubMed: https://pubmed.ncbi.nlm.nih.gov/41793784/
 - DOI: https://doi.org/10.1016/j.ejon.2025.103082
+- Registro del ensayo: NCT05698953
+- Registro accesible: https://ctv.veeva.com/study/the-effect-of-reiki-therapy-in-pediatric-oncology-patients
+
+## Referencias metodológicas
+
+- ICMJE. Clinical trial registration: https://www.icmje.org/recommendations/browse/publishing-and-editorial-issues/clinical-trial-registration.html
+- CONSORT 2010 Explanation and Elaboration: https://pmc.ncbi.nlm.nih.gov/articles/PMC2844943/
