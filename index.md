@@ -10,11 +10,11 @@ title: "Inicio"
     <p style="margin:0 0 8px 0;">Lectura crítica, metodología de la investigación y discusión de problemas metodológicos en literatura científica publicada.</p>
 
     <p style="margin:0; display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
-      <a href="https://orcid.org/TU-ORCID" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; text-decoration:none;">
+      <a href="https://orcid.org/0000-0002-5538-182X" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; text-decoration:none;">
         <img src="{{ '/assets/img/orcid_16x16.gif' | relative_url }}" alt="ORCID iD" style="width:24px; height:24px;">
       </a>
-      <a href="https://orcid.org/TU-ORCID" target="_blank" rel="noopener noreferrer">
-        https://orcid.org/TU-ORCID
+      <a href="https://orcid.org/0000-0002-5538-182X" target="_blank" rel="noopener noreferrer">
+        https://orcid.org/0000-0002-5538-182X
       </a>
     </p>
   </div>
